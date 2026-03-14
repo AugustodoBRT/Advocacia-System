@@ -231,7 +231,7 @@ CREATE INDEX idx_audit_timestamp  ON audit_logs(timestamp);
 
 | Tecnologia | Uso e Justificativa |
 |---|---|
-| Java 21 + Spring Boot 3.x | Base sólida, compatível com seu background em Java |
+| Java 25 + Spring Boot 5.x | Base sólida, compatível com seu background em Java |
 | Spring Security | Autenticação com 3 papéis de acesso, integração nativa com Vaadin |
 | Spring Data JPA + Hibernate | ORM para acesso ao banco com menos boilerplate |
 | PostgreSQL | Banco relacional robusto, gratuito e amplamente usado |
@@ -245,7 +245,7 @@ CREATE INDEX idx_audit_timestamp  ON audit_logs(timestamp);
 
 | Tecnologia | Uso e Justificativa |
 |---|---|
-| Vaadin 24 (Flow) | Framework full-stack Java — UI definida 100% em Java, sem HTML/JS/CSS manual |
+| Vaadin 25 (Flow) | Framework full-stack Java — UI definida 100% em Java, sem HTML/JS/CSS manual |
 | Vaadin Components | Biblioteca de componentes ricos: Grid, Form, Dialog, Notification |
 | Spring Boot + Vaadin | Integração nativa via vaadin-spring — zero configuração de CORS ou API separada |
 | Vaadin Security | Integração direta com Spring Security — @RolesAllowed nas views |
