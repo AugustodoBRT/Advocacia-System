@@ -26,7 +26,7 @@ O objetivo é substituir o uso combinado de ADVBOX, Pipedrive e pastas locais, c
 
 - **Backend:** Spring Boot 4.0.3, Spring Web, Spring Data JPA, Spring Security
 - **Frontend:** Vaadin Flow 25.x
-- **Banco de dados:** PostgreSQL 16
+- **Banco de dados:** PostgreSQL 
 - **Segurança:**
   - Interface Vaadin usa **Spring Security com sessão server-side** — sem token no cliente
   - `@RolesAllowed` nas views Vaadin para controle de acesso por role
