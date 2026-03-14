@@ -1,6 +1,6 @@
 # Advocacia System
 
-Sistema web para gestão de escritório de advocacia, desenvolvido em **Java (Spring Boot)** no backend e **Angular** no frontend.  
+Sistema web para gestão de escritório de advocacia, desenvolvido em **Java (Spring Boot)** no backend e **Vaadin** no frontend.  
 O objetivo é substituir o uso combinado de ADVBOX, Pipedrive e pastas locais, centralizando clientes, processos, tarefas, documentos e histórico de atendimentos em um único sistema.
 
 ## 🎯 Objetivo
@@ -44,7 +44,5 @@ Toda a arquitetura detalhada (pastas, entidades, endpoints, modelo ER) está des
 
 **Frontend**
 
-- Angular 17+
-- TypeScript
-- Angular Router, HttpClient, Reactive Forms
+- Vaadin
 
