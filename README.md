@@ -24,7 +24,7 @@ O objetivo é substituir o uso combinado de ADVBOX, Pipedrive e pastas locais, c
 ## 🏛 Arquitetura
 
 - **Backend:** Spring Boot 3, Spring Web, Spring Data JPA, Spring Security (JWT)
-- **Frontend:** Angular, TypeScript, HTML, CSS (Bootstrap)
+- **Frontend:** Vaadin
 - **Banco de dados:** PostgreSQL
 - **Segurança:** autenticação JWT, controle de roles, preparação para LGPD
 - **Padrão:** API REST, divisão em camadas (controller, service, repository, domain, dto)
