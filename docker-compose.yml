@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: advocacia_db
+    environment:
+      POSTGRES_DB: gestao_juridica
+      POSTGRES_USER: advocacia
+      POSTGRES_PASSWORD: advocacia123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
