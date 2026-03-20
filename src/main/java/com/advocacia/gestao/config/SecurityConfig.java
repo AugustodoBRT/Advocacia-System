@@ -20,17 +20,9 @@ public class SecurityConfig {
         http
             .csrf(csrf -> csrf.disable())
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers("/VAADIN/**", "/favicon.ico", "/robots.txt", "/manifest.webmanifest", "/sw.js", "/offline.html", "/icons/**", "/images/**", "/frontend/**").permitAll()
-                .requestMatchers("/", "/login").permitAll()
-                .anyRequest().authenticated()
+                .anyRequest().permitAll()
             )
-            .formLogin(form -> form
-                .loginPage("/login")
-                .permitAll()
-            )
-            .logout(logout -> logout.logoutUrl("/logout").logoutSuccessUrl("/login"))
             .headers(headers -> headers.frameOptions(frame -> frame.disable()));
-
         return http.build();
     }
 }
